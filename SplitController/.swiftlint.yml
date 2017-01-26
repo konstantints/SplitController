@@ -2,3 +2,5 @@ disabled_rules: # rule identifiers to exclude from running
     - trailing_whitespace
     
 line_length: 300
+file_length: 600
+cyclomatic_complexity: 15

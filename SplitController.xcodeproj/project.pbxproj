@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		F9804F371E39F5AE0093D614 /* SplitController.h in Headers */ = {isa = PBXBuildFile; fileRef = F9804F351E39F5AE0093D614 /* SplitController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9804F401E39F71F0093D614 /* SplitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9804F3F1E39F71F0093D614 /* SplitController.swift */; };
+		F9804F491E3A14A90093D614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9804F481E3A14A90093D614 /* AppDelegate.swift */; };
+		F9804F4B1E3A14A90093D614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9804F4A1E3A14A90093D614 /* ViewController.swift */; };
+		F9804F4E1E3A14A90093D614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9804F4C1E3A14A90093D614 /* Main.storyboard */; };
+		F9804F501E3A14A90093D614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9804F4F1E3A14A90093D614 /* Assets.xcassets */; };
+		F9804F531E3A14A90093D614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9804F511E3A14A90093D614 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,10 +21,24 @@
 		F9804F351E39F5AE0093D614 /* SplitController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitController.h; sourceTree = "<group>"; };
 		F9804F361E39F5AE0093D614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9804F3F1E39F71F0093D614 /* SplitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitController.swift; sourceTree = "<group>"; };
+		F9804F461E3A14A90093D614 /* iOS Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9804F481E3A14A90093D614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9804F4A1E3A14A90093D614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9804F4D1E3A14A90093D614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9804F4F1E3A14A90093D614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9804F521E3A14A90093D614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9804F541E3A14A90093D614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F9804F2E1E39F5AE0093D614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9804F431E3A14A90093D614 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				F9804F341E39F5AE0093D614 /* SplitController */,
+				F9804F471E3A14A90093D614 /* iOS Demo */,
 				F9804F331E39F5AE0093D614 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				F9804F321E39F5AE0093D614 /* SplitController.framework */,
+				F9804F461E3A14A90093D614 /* iOS Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +82,19 @@
 				F9804F361E39F5AE0093D614 /* Info.plist */,
 			);
 			name = Support;
+			sourceTree = "<group>";
+		};
+		F9804F471E3A14A90093D614 /* iOS Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F9804F481E3A14A90093D614 /* AppDelegate.swift */,
+				F9804F4A1E3A14A90093D614 /* ViewController.swift */,
+				F9804F4C1E3A14A90093D614 /* Main.storyboard */,
+				F9804F4F1E3A14A90093D614 /* Assets.xcassets */,
+				F9804F511E3A14A90093D614 /* LaunchScreen.storyboard */,
+				F9804F541E3A14A90093D614 /* Info.plist */,
+			);
+			path = "iOS Demo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,12 +130,30 @@
 			productReference = F9804F321E39F5AE0093D614 /* SplitController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F9804F451E3A14A90093D614 /* iOS Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9804F551E3A14A90093D614 /* Build configuration list for PBXNativeTarget "iOS Demo" */;
+			buildPhases = (
+				F9804F421E3A14A90093D614 /* Sources */,
+				F9804F431E3A14A90093D614 /* Frameworks */,
+				F9804F441E3A14A90093D614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Demo";
+			productName = "iOS Demo";
+			productReference = F9804F461E3A14A90093D614 /* iOS Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F9804F291E39F5AE0093D614 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Chipp Studio";
 				TargetAttributes = {
@@ -109,6 +161,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7H73NQ5KRA;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					F9804F451E3A14A90093D614 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7H73NQ5KRA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -119,6 +176,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F9804F281E39F5AE0093D614;
 			productRefGroup = F9804F331E39F5AE0093D614 /* Products */;
@@ -126,6 +184,7 @@
 			projectRoot = "";
 			targets = (
 				F9804F311E39F5AE0093D614 /* SplitController */,
+				F9804F451E3A14A90093D614 /* iOS Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +194,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9804F441E3A14A90093D614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9804F531E3A14A90093D614 /* LaunchScreen.storyboard in Resources */,
+				F9804F501E3A14A90093D614 /* Assets.xcassets in Resources */,
+				F9804F4E1E3A14A90093D614 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +235,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9804F421E3A14A90093D614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9804F4B1E3A14A90093D614 /* ViewController.swift in Sources */,
+				F9804F491E3A14A90093D614 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9804F4C1E3A14A90093D614 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9804F4D1E3A14A90093D614 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9804F511E3A14A90093D614 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9804F521E3A14A90093D614 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F9804F381E39F5AE0093D614 /* Debug */ = {
@@ -311,6 +408,32 @@
 			};
 			name = Release;
 		};
+		F9804F561E3A14A90093D614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7H73NQ5KRA;
+				INFOPLIST_FILE = "iOS Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ee.chippstudio.iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F9804F571E3A14A90093D614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7H73NQ5KRA;
+				INFOPLIST_FILE = "iOS Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ee.chippstudio.iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -328,6 +451,14 @@
 			buildConfigurations = (
 				F9804F3B1E39F5AE0093D614 /* Debug */,
 				F9804F3C1E39F5AE0093D614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9804F551E3A14A90093D614 /* Build configuration list for PBXNativeTarget "iOS Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9804F561E3A14A90093D614 /* Debug */,
+				F9804F571E3A14A90093D614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
